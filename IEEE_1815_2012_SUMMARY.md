@@ -1,5 +1,7 @@
 # IEEE Std 1815-2012 (DNP3) Summary
 
+> **📋 For detailed information about Protocol Data Units and message exchanges between master and outstation, see [DNP3_PROTOCOL_MESSAGES.md](DNP3_PROTOCOL_MESSAGES.md)**
+
 ## Document Information
 - **Full Title**: IEEE Standard for Electric Power Systems Communications—Distributed Network Protocol (DNP3)
 - **Standard Number**: IEEE Std 1815™-2012 (Revision of IEEE Std 1815-2010)

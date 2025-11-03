@@ -8,7 +8,9 @@ This repository contains the IEEE 1815-2012 standard PDF for the Distributed Net
 
 **📄 PDF Document**: `1815-2012(0) (2).pdf` (821 pages, 19 MB)
 
-For a comprehensive summary of the DNP3 standard, see [IEEE_1815_2012_SUMMARY.md](IEEE_1815_2012_SUMMARY.md)
+**Documentation**:
+- [IEEE_1815_2012_SUMMARY.md](IEEE_1815_2012_SUMMARY.md) - Complete standard overview
+- [DNP3_PROTOCOL_MESSAGES.md](DNP3_PROTOCOL_MESSAGES.md) - **Detailed PDU and message analysis** (function codes, request-response patterns, fragmentation, object headers)
 
 ### Malicious Document Analysis
 
