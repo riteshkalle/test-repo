@@ -25,7 +25,7 @@ The macros collect the following system information:
 
 ### 3. Data Exfiltration
 The collected information is transmitted to a remote Command & Control (C2) server:
-- **C2 URL**: `http://word2022.c1.biz//index.php`
+- **C2 URL**: `http://word2022.c1.biz//index.php` (note: double slashes are in the original malware code)
 - **Method**: HTTP GET request with parameters
 - **Data Sent**: os=[OS Version]&name=[Hostname]&ip=[IP Address]
 - **Technique**: Uses Microsoft.XMLHTTP object for communication
@@ -57,7 +57,7 @@ These registry modifications are written to: `HKCU\Software\Microsoft\Office\[Ve
 ## Indicators of Compromise (IOCs)
 
 ### Network Indicators:
-- **URL**: http://word2022.c1.biz//index.php
+- **URL**: http://word2022.c1.biz//index.php (double slashes are in the original malware)
 - **Domain**: word2022.c1.biz
 - **Protocol**: HTTP (unencrypted)
 
